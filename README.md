@@ -47,11 +47,12 @@ Baed on the previous proposed framework, we further refine and improve the frame
 
 <video src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLA.mp4" controls="controls" width="500" height="300"></video>
 
+In CARLA(https://github.com/carla-simulator/carla), we draw on the experiences from work FRENET(https://github.com/MajidMoghadam2006/frenet-trajectory-planning-framework). Based on the programming in their work, we embed our proposed framework into CARLA 9.9.6. And we also conduct comparative experiments with their framework, where an IDM-based local planner and the lattice trajectory candidates in Frenet are utilized.
 
 * highway-env
 
 <video src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLAHIGH-env.mp4" controls="controls" width="500" height="300"></video>
 
-![highway-env](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLAHIGH.mp4)
+In highway-env(https://github.com/eleurent/highway-env), we conduct comparative experiments with the Monte-Carlo Tree Search-based optimal planning method.
 
 
