@@ -43,7 +43,14 @@ Baed on the previous proposed framework, we further refine and improve the frame
 * two highway simulators are employed with stochastically disposed traffic participants, where vehicles are mutually influenced, more interactive than using data-sets.
 
 ## Videos
+* CARLA
+
+<video src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLA.mp4" controls="controls" width="500" height="300"></video>
 
 ![CARLA](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLA.gif)
+
+* highway-env
+
+<video src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/highway-env.mp4" controls="controls" width="500" height="300"></video>
 
 ![highway-env](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/highway-env.gif)
