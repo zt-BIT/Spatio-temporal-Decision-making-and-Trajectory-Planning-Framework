@@ -14,20 +14,15 @@ The experiments are based on ROS (Robot Operating System) with a computer equipp
 
 ## Main Files
 
-* **main.py**: main funtion. To run: python main.py --train_eval  
-* **models**: model OBJECT  
-* **utils**: 
+* **voxel_planner.py**: the file contraining the core algorithm of our proposed framework. In LTBP, the referenced trajectory is generated in an order of *free space detection--voxels generation--topological relationship determination--voxel sequence search--QP optimization--reference trajectory generation*. While in STDP, the tracking trajectory is optimized and updated as *potential collision detection--boundary determination--QP optimization--local trajectory update*, and functions are developed for each corresponding part in the process
+* **trajectory_generator.py**: optimize the trajectory into a smoothier and dynamic feasible one. In the optimization problem, the control points of Bezier curve are the decision variables, optimized by MOSEK Toolbox.
+* **dijkstra_algorithm.py**: Dijkstra Algorithm for optimal voxel sequence searching.
+* **bezier.py**: base function of bezier curve.
+* **grip_model.py**: neural network(NN)-based model for trajectory prediction, with reference to GRIP++(https://github.com/xincoder/GRIP). 
 
-  * dataloader.py    
-  * util_MDN.py: calculate the pdf given Gaussian params  
-  * get_tensor.py: fetch tensor from the graph    
-  * visualize.py: visualization
-* **example_data**: example testing data  
-* **saved_models**: trained LSTM_MDN model
+## Planning Results of NGSIM Datasets
 
-## Prediction Results
-
-* Scenario1   
+* Static Obstacles  
 
 ![](https://github.com/zt600158/Spatio-temporal-Navigation-Map-based-on-Prediction/blob/master/figs/scenario1.png)
 
