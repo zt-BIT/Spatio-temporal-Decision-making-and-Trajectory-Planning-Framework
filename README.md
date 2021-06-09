@@ -24,6 +24,8 @@ The experiments are based on ROS (Robot Operating System) with a computer equipp
 
 * Static Obstacles  
 
+<div align=center><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static_obstacle_scene1120.pdf" width="300"/></div>
+
 ![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static_obstacle_scene1120.pdf)
 
 velocity, acceleration profile:
