@@ -24,15 +24,15 @@ The experiments are based on ROS (Robot Operating System) with a computer equipp
 
 * Static Obstacles  
 
-<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static.JPG" width="300"/></div>
+<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static.JPG" width="800"/></div>
 
 * Dynamic Scenario 1   
 
-<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn0_pic.jpg" width="300"/></div>
+<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn0_pic.jpg" width="800"/></div>
 
 * Dynamic Scenario 2
 
-<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn1_pic.jpg" width="300"/></div>
+<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn1_pic.jpg" width="800"/></div>
 
 ## Spatio-temporal Navigation Map
 
