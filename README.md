@@ -60,18 +60,18 @@ In highway-env(https://github.com/eleurent/highway-env), we conduct comparative 
 The experiments in CARLA is built with reference to (https://github.com/MajidMoghadam2006/frenet-trajectory-planning-framework), readers could follow their instructions to run the simulator.
 
 ### Terminal-1
-source activate $YOUR_VIRTUAL_ENV$
-cd $CARLA_PATH$
-DISPLAY= ./CarlaUE4.sh 
+`source activate $YOUR_VIRTUAL_ENV$`
+`cd $CARLA_PATH$`
+`DISPLAY= ./CarlaUE4.sh` 
 
 ### Terminal-2
-source activate $YOUR_VIRTUAL_ENV$
-python3 run.py --cfg_file=tools/cfgs/config.yaml --env=CarlaGymEnv-v1 --play_mode=1
+`source activate $YOUR_VIRTUAL_ENV$`
+`python3 run.py --cfg_file=tools/cfgs/config.yaml --env=CarlaGymEnv-v1 --play_mode=1`
 
 The experiments in highway-env is based on the work(https://github.com/eleurent/rl-agents), where our proposed framework is packed into an *AGENT* class.
 
 ### Terminal-1
-source activate $YOUR_VIRTUAL_ENV$
-cd $highway-env_PATH$
-python3 run.py
+`source activate $YOUR_VIRTUAL_ENV$`
+`cd $highway-env_PATH$`
+`python3 run.py`
 
