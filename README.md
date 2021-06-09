@@ -53,9 +53,6 @@ Baed on the previous proposed framework, we further refine and improve the frame
 
 <video src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/highway-env.mp4" controls="controls" width="500" height="300"></video>
 
-![highway-env](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/highway-env.gif)
+![highway-env](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLA_HIGH.mp4)
 
-<video id="video" controls="" preload="none">
-      <source id="mp4" src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/highway-env.mp4" type="video/mp4">
-      <p>No.</p>
-</video>
+
