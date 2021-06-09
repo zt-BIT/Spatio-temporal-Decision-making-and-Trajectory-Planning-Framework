@@ -24,15 +24,15 @@ The experiments are based on ROS (Robot Operating System) with a computer equipp
 
 * Static Obstacles  
 
-<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static.JPG" width="800"/></div>
+<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static.JPG" width="600"/></div>
 
 * Dynamic Scenario 1   
 
-<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn0_pic.jpg" width="800"/></div>
+<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn0_pic.jpg" width="600"/></div>
 
 * Dynamic Scenario 2
 
-<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn1_pic.jpg" width="800"/></div>
+<div align=left><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn1_pic.jpg" width="600"/></div>
 
 
 # Verification in simulators CARLA and highway-env
@@ -44,6 +44,10 @@ Baed on the previous proposed framework, we further refine and improve the frame
 
 ## Videos
 * CARLA
+
+<video id="video" controls="" preload="none" poster="封面">
+      <source id="mp4" src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLA.mp4" type="video/mp4">
+</videos>
 
 <video src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLA.mp4" controls="controls" width="500" height="300"></video>
 
