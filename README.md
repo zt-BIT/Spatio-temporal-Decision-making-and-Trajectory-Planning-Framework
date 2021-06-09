@@ -45,10 +45,6 @@ Baed on the previous proposed framework, we further refine and improve the frame
 ## Videos
 * CARLA
 
-<video id="video" controls="" preload="none" poster="封面">
-      <source id="mp4" src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLA.mp4" type="video/mp4">
-</videos>
-
 <video src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLA.mp4" controls="controls" width="500" height="300"></video>
 
 ![CARLA](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLA.gif)
