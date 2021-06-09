@@ -24,29 +24,15 @@ The experiments are based on ROS (Robot Operating System) with a computer equipp
 
 * Static Obstacles  
 
-<div align=center><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static_obstacle_scene1120.pdf" width="300"/></div>
-
-![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static_obstacle_scene1120.pdf)
-
-velocity, acceleration profile:
-
-![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static_obstacle_va1120.pdf)
+<div align=center><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static.JPG" width="300"/></div>
 
 * Dynamic Scenario 1   
 
-![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn0_pic.pdf)
-
-velocity, acceleration profile:
-
-![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn0_va.pdf)
+<div align=center><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn0_pic.jpg" width="300"/></div>
 
 * Dynamic Scenario 2
 
-![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn1_pic.pdf)
-
-velocity, acceleration profile:
-
-![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn1_va.pdf)
+<div align=center><img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn1_pic.jpg" width="300"/></div>
 
 ## Spatio-temporal Navigation Map
 
