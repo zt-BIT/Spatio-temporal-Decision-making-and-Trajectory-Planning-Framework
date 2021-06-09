@@ -24,15 +24,27 @@ The experiments are based on ROS (Robot Operating System) with a computer equipp
 
 * Static Obstacles  
 
-![](https://github.com/zt600158/Spatio-temporal-Navigation-Map-based-on-Prediction/blob/master/figs/scenario1.png)
+![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static_obstacle_scene1120.pdf)
 
-* Scenario2   
+velocity, acceleration profile:
 
-![](https://github.com/zt600158/Spatio-temporal-Navigation-Map-based-on-Prediction/blob/master/figs/scenario2.png)
+![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/static_obstacle_va1120.pdf)
 
-* Scenario3
+* Dynamic Scenario 1   
 
-![](https://github.com/zt600158/Spatio-temporal-Navigation-Map-based-on-Prediction/blob/master/figs/scenario3.png)
+![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn0_pic.pdf)
+
+velocity, acceleration profile:
+
+![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn0_va.pdf)
+
+* Dynamic Scenario 2
+
+![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn1_pic.pdf)
+
+velocity, acceleration profile:
+
+![](https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/github_figs/dyn1_va.pdf)
 
 ## Spatio-temporal Navigation Map
 
@@ -61,6 +73,11 @@ The experiments are based on ROS (Robot Operating System) with a computer equipp
  <img src="https://github.com/zt600158/Spatio-temporal-Navigation-Map-based-on-Prediction/blob/master/figs/lane_change_t10.jpg" width="300"/><img src="https://github.com/zt600158/Spatio-temporal-Navigation-Map-based-on-Prediction/blob/master/figs/lane_change_t20.jpg" width="300"/>
 </div>
 
-## [Coming soon]Local Path Planning
+# Verification in simulators CARLA and highway-env
 
-Based on the constucted 'Spatio-temporal Navigation Map', we further conduct local path planning for the ego vehicle. As the dynamic motion of the surrounding vehicles are tranformed into the static obstacles along the time axis, we employ Hybird A* algorithm to search the rough trajectory in a discrete space. Then the trajectory is represented by a continuous spline which confirms to the dynamic feasibility of the vehicles. Consequently, the spatio-temporal path planning is realized so as to avoid collisions with dynamic obstacles. The relevant work will be updated in this Github...
+Baed on the previous proposed framework, we further refine and improve the framework to enhance its ability in the complicated traffic scenarios with interactive and denselydistributed dynamic vehicles. Three improvements are highlighted in three aspects:
+* the neural network-based trajectory prediction module is integrated in the framework instead of the simple constant-velocity(CV) model, providing more accurate spatio-temporal trajectory for decision-making;
+* some tricks are developed for the continuous and consistent planning in a dynamic traffic flow, typically including the elastic factor for loosening the constraints and the boundary adjustment during optimization process;
+* two highway simulators are employed with stochastically disposed traffic participants, where vehicles are mutually influenced, more interactive than using data-sets.
+
+## Videos
