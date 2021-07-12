@@ -57,7 +57,7 @@ In CARLA(https://github.com/carla-simulator/carla), we draw on the experiences f
 * highway-env
 
 <p align="center">
-    <img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/CARLAHIGH-env.gif?raw=true"><br/>
+    <img src="https://github.com/zt-BIT/Spatio-temporal-Decision-making-and-Trajectory-Planning-Framework/blob/main/videos/highway-env.gif?raw=true"><br/>
     <em>highway-env Simulation Results.</em>
 </p>
 
