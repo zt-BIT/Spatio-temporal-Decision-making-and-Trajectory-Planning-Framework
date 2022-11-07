@@ -90,3 +90,13 @@ The experiments in highway-env is based on the work(https://github.com/eleurent/
 
 `python3 run.py`
 
+Please cite the reference as
+@ARTICLE{9479862,
+  author={Zhang, Ting and Song, Wenjie and Fu, Mengyin and Yang, Yi and Tian, Xiaohui and Wang, Meiling},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={A Unified Framework Integrating Decision Making and Trajectory Planning Based on Spatio-Temporal Voxels for Highway Autonomous Driving}, 
+  year={2022},
+  volume={23},
+  number={8},
+  pages={10365-10379},
+  doi={10.1109/TITS.2021.3093548}}
