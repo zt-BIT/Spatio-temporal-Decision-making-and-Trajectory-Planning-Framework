@@ -90,9 +90,8 @@ The experiments in highway-env is based on the work(https://github.com/eleurent/
 
 `python3 run.py`
 
-
+## References
 The related paper can be cited as:
-BibTex
 ```
 @ARTICLE{9479862,
   author={Zhang, Ting and Song, Wenjie and Fu, Mengyin and Yang, Yi and Tian, Xiaohui and Wang, Meiling},
