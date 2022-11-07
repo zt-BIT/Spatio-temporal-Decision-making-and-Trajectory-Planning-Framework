@@ -90,7 +90,10 @@ The experiments in highway-env is based on the work(https://github.com/eleurent/
 
 `python3 run.py`
 
-Please cite the reference as
+
+The related paper can be cited as:
+BibTex
+```
 @ARTICLE{9479862,
   author={Zhang, Ting and Song, Wenjie and Fu, Mengyin and Yang, Yi and Tian, Xiaohui and Wang, Meiling},
   journal={IEEE Transactions on Intelligent Transportation Systems}, 
@@ -100,3 +103,4 @@ Please cite the reference as
   number={8},
   pages={10365-10379},
   doi={10.1109/TITS.2021.3093548}}
+```
